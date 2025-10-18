@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/rachaelmartin768315/mimir-wallet/compare/ui-v2.32.0...ui-v3.0.0) (2025-10-18)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/rachaelmartin768315/mimir-wallet/issues/319)) ([d43e32a](https://github.com/rachaelmartin768315/mimir-wallet/commit/d43e32a216667d30d4f9f59b0447cedc31dd5d12))
+* Add cross-chain calldata display component ([#291](https://github.com/rachaelmartin768315/mimir-wallet/issues/291)) ([3feece8](https://github.com/rachaelmartin768315/mimir-wallet/commit/3feece8a635f83a63ec04d1390447bbf71b189e6))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/rachaelmartin768315/mimir-wallet/issues/285)) ([a3a1bf8](https://github.com/rachaelmartin768315/mimir-wallet/commit/a3a1bf8c080ef2ab164065693225c20a87ca9042))
+* Add dry run API support for transaction simulation ([#207](https://github.com/rachaelmartin768315/mimir-wallet/issues/207)) ([76d6b40](https://github.com/rachaelmartin768315/mimir-wallet/commit/76d6b402ed6cb2c9993fd25c316139dd1aa9a9cf))
+* add global account search and refactor UI components ([#167](https://github.com/rachaelmartin768315/mimir-wallet/issues/167)) ([6455c12](https://github.com/rachaelmartin768315/mimir-wallet/commit/6455c1272d488667d94cd42dc682acbccaed37a0))
+* Add notification center feature ([#282](https://github.com/rachaelmartin768315/mimir-wallet/issues/282)) ([705a4fe](https://github.com/rachaelmartin768315/mimir-wallet/commit/705a4fe92c9379ba0be6857365f16451acaaeec7))
+* add permission check when submit transaction ([#164](https://github.com/rachaelmartin768315/mimir-wallet/issues/164)) ([f6f5821](https://github.com/rachaelmartin768315/mimir-wallet/commit/f6f58213f0d20289e3307c5db52e4aa59a76bd14))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/rachaelmartin768315/mimir-wallet/issues/171)) ([256787b](https://github.com/rachaelmartin768315/mimir-wallet/commit/256787bc6465100d64e6d81cc2ba850f24c15e75))
+* Add sonner to replace react-toastify ([#280](https://github.com/rachaelmartin768315/mimir-wallet/issues/280)) ([d131da8](https://github.com/rachaelmartin768315/mimir-wallet/commit/d131da86e511c334a02cd7a75139bd6570130802))
+* add template detail view functionality ([#174](https://github.com/rachaelmartin768315/mimir-wallet/issues/174)) ([411bd90](https://github.com/rachaelmartin768315/mimir-wallet/commit/411bd9073596476fc7fc521b4a2906ad962d6d92))
+* Add zkVerify testnet supported ([#251](https://github.com/rachaelmartin768315/mimir-wallet/issues/251)) ([7add022](https://github.com/rachaelmartin768315/mimir-wallet/commit/7add022d0a0068deb9882eb50d68d9b3a050ab10))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/rachaelmartin768315/mimir-wallet/issues/215)) ([15ea749](https://github.com/rachaelmartin768315/mimir-wallet/commit/15ea74998524b7a5794bdc0b4a9a51bddf22006d))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/rachaelmartin768315/mimir-wallet/issues/254)) ([d564f7c](https://github.com/rachaelmartin768315/mimir-wallet/commit/d564f7cc91b29d75a8b2fad1b978f0b7b0c87b72))
+* implement AssetHub migration support ([#259](https://github.com/rachaelmartin768315/mimir-wallet/issues/259)) ([84a6db3](https://github.com/rachaelmartin768315/mimir-wallet/commit/84a6db33ea974558012e576135f2fddc196db880))
+* Improve UI display and user experience ([#218](https://github.com/rachaelmartin768315/mimir-wallet/issues/218)) ([564ec43](https://github.com/rachaelmartin768315/mimir-wallet/commit/564ec43b3aa6552ba9a91404a368b7ddab5ac077))
+* migrate some ui components to shadcn ([#278](https://github.com/rachaelmartin768315/mimir-wallet/issues/278)) ([2e89151](https://github.com/rachaelmartin768315/mimir-wallet/commit/2e891514915a01a6ad6ed4ba58a17d7839240b3c))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/rachaelmartin768315/mimir-wallet/issues/270)) ([317268a](https://github.com/rachaelmartin768315/mimir-wallet/commit/317268aaeb08f6a8d3b1cc9c0996866e4eb17eda))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/rachaelmartin768315/mimir-wallet/issues/293)) ([01670db](https://github.com/rachaelmartin768315/mimir-wallet/commit/01670dbc7eaddc4ec065b472c529d5b262246a75))
+* remove assethub next westend network ([#232](https://github.com/rachaelmartin768315/mimir-wallet/issues/232)) ([5a3ebe0](https://github.com/rachaelmartin768315/mimir-wallet/commit/5a3ebe02f81249852d03b3140d80bcacf5a488a3))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/rachaelmartin768315/mimir-wallet/issues/162)) ([ac0ecc6](https://github.com/rachaelmartin768315/mimir-wallet/commit/ac0ecc6fe7b12166779a6c2f7058a26491119b0c))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/rachaelmartin768315/mimir-wallet/issues/261)) ([21e2b27](https://github.com/rachaelmartin768315/mimir-wallet/commit/21e2b27fe2dad1be3c953e6b705818a4010e521b))
+
+
+### Bug Fixes
+
+* fix some ui issues ([be79e49](https://github.com/rachaelmartin768315/mimir-wallet/commit/be79e495f698e1deac8b22f4efdda41426db6c0b))
+* Fix some UI issues ([#257](https://github.com/rachaelmartin768315/mimir-wallet/issues/257)) ([6b09dd7](https://github.com/rachaelmartin768315/mimir-wallet/commit/6b09dd7dd73647d5c4476aedbe3df196f59983d7))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/rachaelmartin768315/mimir-wallet/issues/165)) ([af3fe3e](https://github.com/rachaelmartin768315/mimir-wallet/commit/af3fe3e64ac60b9692ab50d54ae7af3ae2926992))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.31.0...ui-v2.32.0) (2025-10-14)
 
 

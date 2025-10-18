@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/rachaelmartin768315/mimir-wallet/compare/service-v2.32.0...service-v3.0.0) (2025-10-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/rachaelmartin768315/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/rachaelmartin768315/mimir-wallet/issues/181)) ([238e5b3](https://github.com/rachaelmartin768315/mimir-wallet/commit/238e5b3cc0ba3b60df26e8197894e72069605bb5))
+* Add cross-chain calldata display component ([#291](https://github.com/rachaelmartin768315/mimir-wallet/issues/291)) ([3feece8](https://github.com/rachaelmartin768315/mimir-wallet/commit/3feece8a635f83a63ec04d1390447bbf71b189e6))
+* Add dry run API support for transaction simulation ([#207](https://github.com/rachaelmartin768315/mimir-wallet/issues/207)) ([76d6b40](https://github.com/rachaelmartin768315/mimir-wallet/commit/76d6b402ed6cb2c9993fd25c316139dd1aa9a9cf))
+* Add notification center feature ([#282](https://github.com/rachaelmartin768315/mimir-wallet/issues/282)) ([705a4fe](https://github.com/rachaelmartin768315/mimir-wallet/commit/705a4fe92c9379ba0be6857365f16451acaaeec7))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/rachaelmartin768315/mimir-wallet/issues/171)) ([256787b](https://github.com/rachaelmartin768315/mimir-wallet/commit/256787bc6465100d64e6d81cc2ba850f24c15e75))
+* Add remote proxy support ([#236](https://github.com/rachaelmartin768315/mimir-wallet/issues/236)) ([e19a1c6](https://github.com/rachaelmartin768315/mimir-wallet/commit/e19a1c6eb6b0ef6e75612a7b2e3f6358b20eb9a0))
+* add transaction subscription functionality ([#213](https://github.com/rachaelmartin768315/mimir-wallet/issues/213)) ([f0a97eb](https://github.com/rachaelmartin768315/mimir-wallet/commit/f0a97ebf88a159fc0fb4ca7697405cdcb8dcf856))
+* Add zkVerify testnet supported ([#251](https://github.com/rachaelmartin768315/mimir-wallet/issues/251)) ([7add022](https://github.com/rachaelmartin768315/mimir-wallet/commit/7add022d0a0068deb9882eb50d68d9b3a050ab10))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/rachaelmartin768315/mimir-wallet/issues/198)) ([c7c5cd9](https://github.com/rachaelmartin768315/mimir-wallet/commit/c7c5cd94ab2c31813e32dbf775a2b23601b01ee6))
+* Improve UI display and user experience ([#218](https://github.com/rachaelmartin768315/mimir-wallet/issues/218)) ([564ec43](https://github.com/rachaelmartin768315/mimir-wallet/commit/564ec43b3aa6552ba9a91404a368b7ddab5ac077))
+* Optimize balance retrieval logic ([#311](https://github.com/rachaelmartin768315/mimir-wallet/issues/311)) ([c9376ac](https://github.com/rachaelmartin768315/mimir-wallet/commit/c9376ac98b89ee612485b00a6cf82e1791330f54))
+* remove assethub next westend network ([#232](https://github.com/rachaelmartin768315/mimir-wallet/issues/232)) ([5a3ebe0](https://github.com/rachaelmartin768315/mimir-wallet/commit/5a3ebe02f81249852d03b3140d80bcacf5a488a3))
+* remove batch restore functionality ([#204](https://github.com/rachaelmartin768315/mimir-wallet/issues/204)) ([fc73eaa](https://github.com/rachaelmartin768315/mimir-wallet/commit/fc73eaab838c6f7d5230bb48d8b14bb30d54a345))
+* subscribe wallet accounts changed ([#176](https://github.com/rachaelmartin768315/mimir-wallet/issues/176)) ([36e0f10](https://github.com/rachaelmartin768315/mimir-wallet/commit/36e0f10ff81757dafcadce3158bba97ecb2968a0))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/rachaelmartin768315/mimir-wallet/issues/261)) ([21e2b27](https://github.com/rachaelmartin768315/mimir-wallet/commit/21e2b27fe2dad1be3c953e6b705818a4010e521b))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/rachaelmartin768315/mimir-wallet/issues/267)) ([a32196b](https://github.com/rachaelmartin768315/mimir-wallet/commit/a32196b9c0b2f227e100eacbdf217e1b9be92037))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.31.0...service-v2.32.0) (2025-10-14)
 
 

@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.0.0](https://github.com/rachaelmartin768315/mimir-wallet/compare/polkadot-core-v2.32.0...polkadot-core-v3.0.0) (2025-10-18)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/rachaelmartin768315/mimir-wallet/issues/323)) ([5350848](https://github.com/rachaelmartin768315/mimir-wallet/commit/5350848c8da0b02fa85e7d776644a9cccd540887))
+* Add astar network support ([#230](https://github.com/rachaelmartin768315/mimir-wallet/issues/230)) ([29842e1](https://github.com/rachaelmartin768315/mimir-wallet/commit/29842e14c4407e380d691fcc37c3b3ccb202a098))
+* Add cross-chain calldata display component ([#291](https://github.com/rachaelmartin768315/mimir-wallet/issues/291)) ([3feece8](https://github.com/rachaelmartin768315/mimir-wallet/commit/3feece8a635f83a63ec04d1390447bbf71b189e6))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/rachaelmartin768315/mimir-wallet/issues/285)) ([a3a1bf8](https://github.com/rachaelmartin768315/mimir-wallet/commit/a3a1bf8c080ef2ab164065693225c20a87ca9042))
+* Add dry run API support for transaction simulation ([#207](https://github.com/rachaelmartin768315/mimir-wallet/issues/207)) ([76d6b40](https://github.com/rachaelmartin768315/mimir-wallet/commit/76d6b402ed6cb2c9993fd25c316139dd1aa9a9cf))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/rachaelmartin768315/mimir-wallet/issues/309)) ([9daa7c8](https://github.com/rachaelmartin768315/mimir-wallet/commit/9daa7c869ae8fc2e38aeb25bf41f43406a431301))
+* Add moonbeam and tanssi network support ([#327](https://github.com/rachaelmartin768315/mimir-wallet/issues/327)) ([43228e2](https://github.com/rachaelmartin768315/mimir-wallet/commit/43228e2066e60f8bdf8d786bb51deb0cfe49a83d))
+* Add notification center feature ([#282](https://github.com/rachaelmartin768315/mimir-wallet/issues/282)) ([705a4fe](https://github.com/rachaelmartin768315/mimir-wallet/commit/705a4fe92c9379ba0be6857365f16451acaaeec7))
+* Add PAssetHub network support ([#239](https://github.com/rachaelmartin768315/mimir-wallet/issues/239)) ([687abd9](https://github.com/rachaelmartin768315/mimir-wallet/commit/687abd9a99620271d9732ba1d2555dfebc52658b))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/rachaelmartin768315/mimir-wallet/issues/321)) ([c689e0c](https://github.com/rachaelmartin768315/mimir-wallet/commit/c689e0ca42b757b11bd7a6b0b047fcd1170856b9))
+* Add remote proxy support ([#236](https://github.com/rachaelmartin768315/mimir-wallet/issues/236)) ([e19a1c6](https://github.com/rachaelmartin768315/mimir-wallet/commit/e19a1c6eb6b0ef6e75612a7b2e3f6358b20eb9a0))
+* Add walletconnect in dapp page ([#217](https://github.com/rachaelmartin768315/mimir-wallet/issues/217)) ([a953e0e](https://github.com/rachaelmartin768315/mimir-wallet/commit/a953e0e66947f877e9ced0d8217a7d9f348d9c09))
+* Add xcavate network support ([#237](https://github.com/rachaelmartin768315/mimir-wallet/issues/237)) ([41066b3](https://github.com/rachaelmartin768315/mimir-wallet/commit/41066b3aaa8dedb9aabd536107f1508fa157b926))
+* Add zkverify mainnet support ([#312](https://github.com/rachaelmartin768315/mimir-wallet/issues/312)) ([547c2a6](https://github.com/rachaelmartin768315/mimir-wallet/commit/547c2a66e5c497b921377a1e544e9fd120a5412d))
+* Add zkVerify testnet supported ([#251](https://github.com/rachaelmartin768315/mimir-wallet/issues/251)) ([7add022](https://github.com/rachaelmartin768315/mimir-wallet/commit/7add022d0a0068deb9882eb50d68d9b3a050ab10))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/rachaelmartin768315/mimir-wallet/issues/254)) ([d564f7c](https://github.com/rachaelmartin768315/mimir-wallet/commit/d564f7cc91b29d75a8b2fad1b978f0b7b0c87b72))
+* Improve UI display and user experience ([#218](https://github.com/rachaelmartin768315/mimir-wallet/issues/218)) ([564ec43](https://github.com/rachaelmartin768315/mimir-wallet/commit/564ec43b3aa6552ba9a91404a368b7ddab5ac077))
+* Optimize balance retrieval logic ([#311](https://github.com/rachaelmartin768315/mimir-wallet/issues/311)) ([c9376ac](https://github.com/rachaelmartin768315/mimir-wallet/commit/c9376ac98b89ee612485b00a6cf82e1791330f54))
+* optimize rpc connection and improve network stability ([#193](https://github.com/rachaelmartin768315/mimir-wallet/issues/193)) ([fed7e20](https://github.com/rachaelmartin768315/mimir-wallet/commit/fed7e2032705ed2925a305b132656c2e84e16b97))
+* remove assethub next westend network ([#232](https://github.com/rachaelmartin768315/mimir-wallet/issues/232)) ([5a3ebe0](https://github.com/rachaelmartin768315/mimir-wallet/commit/5a3ebe02f81249852d03b3140d80bcacf5a488a3))
+* subscribe wallet accounts changed ([#176](https://github.com/rachaelmartin768315/mimir-wallet/issues/176)) ([36e0f10](https://github.com/rachaelmartin768315/mimir-wallet/commit/36e0f10ff81757dafcadce3158bba97ecb2968a0))
+* Support eth address transfer on westend ([#234](https://github.com/rachaelmartin768315/mimir-wallet/issues/234)) ([c2906d0](https://github.com/rachaelmartin768315/mimir-wallet/commit/c2906d06d44501a7e1d46417987ad1de373abbcc))
+* support eth address trasfer on westend assethub ([#224](https://github.com/rachaelmartin768315/mimir-wallet/issues/224)) ([a30f810](https://github.com/rachaelmartin768315/mimir-wallet/commit/a30f810fc0bac3afd9ef3d80dae288b8f90e04be))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/rachaelmartin768315/mimir-wallet/issues/261)) ([21e2b27](https://github.com/rachaelmartin768315/mimir-wallet/commit/21e2b27fe2dad1be3c953e6b705818a4010e521b))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/rachaelmartin768315/mimir-wallet/issues/268)) ([33e81b3](https://github.com/rachaelmartin768315/mimir-wallet/commit/33e81b3346c214b08592d34164ef92b94186a3da))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/rachaelmartin768315/mimir-wallet/issues/267)) ([a32196b](https://github.com/rachaelmartin768315/mimir-wallet/commit/a32196b9c0b2f227e100eacbdf217e1b9be92037))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/rachaelmartin768315/mimir-wallet/issues/247)) ([f0d6f5c](https://github.com/rachaelmartin768315/mimir-wallet/commit/f0d6f5c4ef1e2056715935c6b5d560fa9057dd4b))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/rachaelmartin768315/mimir-wallet/issues/178)) ([4b3ad85](https://github.com/rachaelmartin768315/mimir-wallet/commit/4b3ad85c688a303000d82c8852643d0b7620f26d))
+* Fix some issues while connect wallet ([#220](https://github.com/rachaelmartin768315/mimir-wallet/issues/220)) ([b1df0f3](https://github.com/rachaelmartin768315/mimir-wallet/commit/b1df0f336b1ab4fae12a06d2ca4ed6e5d950d9b2))
+* improve user experience and fix bugs ([#222](https://github.com/rachaelmartin768315/mimir-wallet/issues/222)) ([da56180](https://github.com/rachaelmartin768315/mimir-wallet/commit/da561806d06f93651c52976d3f32b4a0cb729139))
+* optimize balance fetching performance ([#228](https://github.com/rachaelmartin768315/mimir-wallet/issues/228)) ([ca18c19](https://github.com/rachaelmartin768315/mimir-wallet/commit/ca18c19c72f598e941d04e1eef0a849745be58e9))
+* optimize user experience and fix some bugs ([#226](https://github.com/rachaelmartin768315/mimir-wallet/issues/226)) ([5e62d9e](https://github.com/rachaelmartin768315/mimir-wallet/commit/5e62d9ef811d7c9b9123d76b525ed3b705a8c318))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v2.32.0) (2025-10-14)
 
 
